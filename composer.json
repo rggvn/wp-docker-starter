@@ -1,0 +1,5 @@
+{
+    "require": {
+        "scottjs/wp-dotenv": "1.*"
+    }
+}
