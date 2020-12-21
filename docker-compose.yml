@@ -5,8 +5,9 @@ networks:
 
 services:
   web:
-    image: php:7.3-apache
+    image: php:7.4-apache
     restart: unless-stopped
+    env_file: .env
     build:
       context: .
       dockerfile: Dockerfile
